@@ -8,4 +8,4 @@ git clone https://github.com/petangZi/redzbooster.git
 
 cd redzbooster
 
-bash redztool.sh
+bash redzbooster.sh

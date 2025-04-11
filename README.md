@@ -4,7 +4,7 @@ pkg install git
 
 pkg install bash
 
-git clone https://github.com/petangZi/redztool.git
+git clone https://github.com/petangZi/redzbooster.git
 
 cd redzbooster
 

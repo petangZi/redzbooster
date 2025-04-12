@@ -8,7 +8,7 @@ git clone https://github.com/petangZi/redzbooster.git
 
 cd redzbooster
 
-bash redzboosterV1.10.sh
+bash redzboosterV2.sh
 
 new update 1.10
 

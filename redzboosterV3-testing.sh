@@ -25,20 +25,17 @@ read -p "🔐 Masukkan password akses: " pass
 
 if [[ "$pass" == "redzantikendor" ]]; then
     mode="admin"
-elif [[ "$pass" == VIR* ]]; then
-    mode="vip"
-else
+elif [[ "$pass" == "8080" ]]; then
     mode="basic"
+else
+    echo -e "${red}❌ Password salah!${reset}"
+    exit 1
 fi
 
 if [[ "$mode" == "basic" ]]; then
     echo -e "${yellow}🛡️ Mode: BASIC USER${reset}"
-elif [[ "$mode" == "vip" ]]; then
-    echo -e "${green}🟢 Mode: VIP USER${reset}"
 elif [[ "$mode" == "admin" ]]; then
     echo -e "${red}🔥 Mode: ADMIN POWER${reset}"
-    echo -e "${cyan}👑 Fitur Rahasia Admin Siap Digunakan...${reset}"
-    echo -e "${blue}🔐 Kode VIP acak: VIR$(openssl rand -hex 2 | cut -c1-3 | tr 'a-z' 'A-Z')${reset}"
 fi
 
 # Menu Booster

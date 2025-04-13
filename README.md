@@ -17,3 +17,7 @@ fix not working feature
 NEW UPDATE V2
 
 add cheats ff and pubg
+
+NEW UPDATE V3 mini
+
+added password PW:8080
